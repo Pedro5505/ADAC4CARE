@@ -1,0 +1,247 @@
+{
+  "inspected": "2026-09-10",
+  "frontend_commit": "c53e0eaccf0d9771a9babfada1fab6de8b1f35f3",
+  "files": {
+    "frontend/package.json": "c0510cdaf9cbf8332c87c93e4f7318969e7cf3a6f237db39b205a25fdf2471d1",
+    "frontend/.env.example": "db3050d98045995dc3c85db13267fa1a4f0d3911ba9b16944c96638538ddbb82",
+    "frontend/lib/prescriber-chart.ts": "1d043bbe3c2e59ee002a09c3321db7f5b4b4164064e05a6ecd320ae50bf8c2b0",
+    "frontend/db/schema.ts": "67c6e76c7a73245db264bd734446373279e08ee5acf354e0db777a9e56a6af66",
+    "frontend/lib/chart-access.ts": "829ddbba4bfd8ea3b9d56c5727dddc3a7fe76fd0d5f5b129771f876aef23b021",
+    "frontend/lib/chart-db.ts": "2efaf73f940936423a02a35d825ab6e7153a2c4004f67eed1e03a9ce162a4c88",
+    "frontend/lib/chart-server.ts": "b99c2e265c1909729e64ace0b9c0eacff921b94225380d5ded38270155a64c41",
+    "frontend/app/api/prescriber-chart/route.ts": "514426062a548a6d03e23d8f40c13a5db4435c182fdd464d814ec99a5b4e889a",
+    "frontend/hooks/use-prescriber-chart.ts": "09fb61aa31fcea0a5635b893b7f2ebe9367672c8896a20eb24ed0bf8198d1450",
+    "frontend/components/gp-medication-table.tsx": "8f588cccda5eaf50f66739a7d7e2fc44f62cb23ae1408bf25638aa1d645d8da3",
+    "frontend/app/medication-charts/page.tsx": "41e9269983f04f2e778cb999e8602dbd7d6587093fe4d0f796568cf0cb9929b5",
+    "frontend/app/layout.tsx": "8d3351e09f3f4ee0f5fe888ecb8e6ad3b6881541d1954ddc8c29943fa487a958",
+    "frontend/components/prescriber-signature.tsx": "8a9236a901025dff2db75e3d2da4aa7e22bacb7e65f5d26b895dfcaef54cbe8f",
+    "backend/apps/accounts/permissions.py": "0bb7a2b585dc8903f6b934da4c7261654051b552b7a66ee7cb2397d5c60384d1",
+    "backend/apps/medications/serializers.py": "ebeb792af0f5ad0551bc9d2b28af28a233945769968b7ef85d8c6aed80755cb4",
+    "backend/apps/medications/views.py": "a854cbb07e22bde2f1ae2d46f150d09f2a5d05c25368744c93ad729970177c09",
+    "frontend/lib/api-client.ts": "365f218dfed261758fdc38e20fa7bd79db8f387b6144ca84808b816ec174e874",
+    "frontend/app/reports/page.tsx": "4bdd74ab910281423a569a5049a0b22578229a56ff36980efa138b153baaf6d5",
+    "frontend/components/app-shell.tsx": "c653f870697d3138749b1d9a7e12c87160fc9bbce41e43b291de70a464d28286",
+    "README.md": "3058a43251b735dd70833b6776244b615e3bbd567b74cef726aead1cd55e3d7a",
+    "frontend/vite.config.ts": "3c028e727dde6c92022197ba7241a424ccd1e3d335f1f46cc9bbf91a8a3a968c",
+    "frontend/drizzle.config.ts": "d1e9447b6a758015d3a5f5f3b21b81aa5754d98a7923a48dbc440040a5a1c0d8",
+    "frontend/tsconfig.json": "d3d113d56318a209da8e7c7870ec446ecbb6e689348c59231599e0e38489d6a4",
+    "frontend/data/demo/index.ts": "3783c00cdc3ddd6caf3aeb6e2c50a001e6b6c5090e3cb96116fdf2641aa58f25",
+    "frontend/data/demo/types.ts": "eafd163641d849eeaef1b68c0fd40d4246b3756b9f1308521000986e74a9a45c",
+    "frontend/app/people/page.tsx": "fafd7f4ed4673b2728cba4d8cf3dacbbe8c0d8d96e7018263ec5cbb4c3ee5f7a",
+    "frontend/app/people/[clientId]/page.tsx": "c4657064b95db10269eef8106331895760eb3afe256af2cbbb77f858ea3abd0f",
+    "frontend/app/page.tsx": "72c7cbe01735a0ca646151344c492192a9823749ff47830fc0ac3b69b3b91248",
+    "frontend/app/messages/page.tsx": "daa7d9e54f8934b3ec172b5e41b4e05f542fa9d4aaea4eb6542568ddc30784b3",
+    "frontend/lib/auth.ts": "4019091bac94afd88ac6dd4bd3bf7b52f9afe3dda6a73ee2e6478ec255a255e5",
+    "frontend/components/role-provider.tsx": "006010ea22a19e1312a44762f1ec66f558fae0ecd2e82e9dff7ba90aefb1e0f0",
+    "frontend/docs/gp-medication-chart.md": "f7e9e99dc957e029c2307f9b741e03af9e7805dae39dd3210bebc8bed719511d",
+    "frontend/app/api/chart-administrations/route.ts": "83fc7f1911622b37668a234121135581d31ab7ff6fc10222a12723febffbfb49",
+    "frontend/drizzle/0000_medication_records.sql": "21c6ac92b456d563961ebe3c3767f218b56a4d4fe86076a1b26ddfed16ca6f8d",
+    "frontend/drizzle/0001_short_random.sql": "fb31c94ee566c3ee24d649c2b76a558ce7c98074800975285d07f1e980a9dd40",
+    "frontend/tests/prescriber-chart.test.ts": "8b6e78d1c516ba5491df09f3cb843d983d5dc9047fae5a5f0589970cf4fce706",
+    "frontend/tests/chart-administrations.mjs": "6aebcf0efb6fe2f94e64a3a06725a08c39a0aaac1edb48389c7a926c58582fe7",
+    "backend/config/urls.py": "f7bda32722a77bca59d4dcfbff7cdf580fdce47801d1098f464a8f349a1a18db",
+    "backend/config/settings/base.py": "26ea55509e3d83f4fd5416f8d65bd55c89cfc42edd072a1c87317815eb013d95",
+    "backend/config/settings/dev.py": "f0e4ea68f4e4ad718264f0436e27edc904cd828320bf35883621ad40b5564634",
+    "backend/apps/accounts/middleware.py": "38160f8aa92533716e6c0ab5b23a802565731a00a5b1139304b2da1ecd4a083b",
+    "backend/apps/accounts/models.py": "4bdc62a5c3c5343fc5021e57fa4d642e7f2b5db0af588b229598f08bdc3fb60b",
+    "backend/apps/clients/models.py": "55b8ce77897ec59265a706a5a1ab50351af6751107560cc706289c3ed0083461",
+    "backend/apps/clients/views.py": "f0a80faccf8527646f2d97ef76f26788ceb878b08557c425219bd233fea58e61",
+    "backend/apps/clients/serializers.py": "623281c12a0062ae07d6746325564ad3ced94bb6fafa58d115871e906104f0c7",
+    "backend/apps/medications/models.py": "95084fded6c426d47e6cb491a541d8cfb5b610066d02ebbfe10eb6f444ae3900",
+    "backend/apps/messaging/models.py": "50aea71d00c0d5807a750d07bdf229be89a0a4eedf8ca8b39ece4514d71ebf5a",
+    "backend/apps/messaging/views.py": "69291e7f789791032c2e0be75940b326abf26968421f516b44c72adec0151190",
+    "backend/apps/messaging/serializers.py": "63457f8008393de31f8e9f2d78e74bbaf2c9d6b922f777b02d849344aafa63fc",
+    "backend/apps/audit/models.py": "2e0a0af5b5b8ea69b1febf48050758614139add34cfb6f5df9b1eef0a7337e43",
+    "backend/apps/audit/middleware.py": "58f0bff1fe61b102dc357b3175208561608b625df6cc26cb46e5b484dad5fb29",
+    "backend/apps/administration/models.py": "03b11c648e682258dfd9cd257f5af685f0db4db84d0dc5a146ef03c19afda5b5",
+    "backend/apps/administration/views.py": "08a7bc6d986887805756fd1417528b6b8002b9b25e7b9ff9a7ffa43b341c7f7c",
+    "backend/.env.example": "ac9acba2cd1be7a733a3ae6467f5f232612c0e8e211d3130db4fafaa30846c1c",
+    "backend/requirements/base.txt": "357e04f2ef3da58bf962769e6e93db5350690ee6b457a2eef4ed43e1359da855",
+    "backend/requirements/dev.txt": "f8e9a2fa0856ecde13df368ea200fc6174ba6d3e9071827f3348c2c35907ec1d",
+    "backend/tests/test_safety_models.py": "8fd9d8f12a0c29cbaeea8e044c2422ce642e384ca74554b04b7604372ad710fe",
+    "backend/tests/conftest.py": "90963f932a7d2f18f63e5c3861aa73e08a758df5cf9a86e5b5aef36e3aee1c26",
+    "backend/pytest.ini": "d1e52afa2d15461d541dffa68987e1b8fe73ef22452ebbea82bb309eff3de54f"
+  },
+  "excerpts": [
+    {
+      "path": "frontend/package.json",
+      "start": 8,
+      "end": 14,
+      "sha256": "1671d2c2ceb8a0979563db30b8e8b767b75b262394d2f443b23f53404ff7b885"
+    },
+    {
+      "path": "frontend/.env.example",
+      "start": 1,
+      "end": 7,
+      "sha256": "af69bb4121a1d55ea3fe34708c9dacd02f9c1d0a198bc3ede1099cff7da0cece"
+    },
+    {
+      "path": "frontend/lib/prescriber-chart.ts",
+      "start": 1,
+      "end": 33,
+      "sha256": "a6488ed10e7cd0affd76cae61285b489c7afebe600f00fef98b42f0ea41f6f93"
+    },
+    {
+      "path": "frontend/lib/prescriber-chart.ts",
+      "start": 63,
+      "end": 66,
+      "sha256": "3dfc8f1ac2d7bcf48bab602572eb686bf5423f664f4b88e9a90b7ae26d58a246"
+    },
+    {
+      "path": "frontend/lib/prescriber-chart.ts",
+      "start": 39,
+      "end": 60,
+      "sha256": "8d56dca0c13cb96139e7970dd23e90f35aaecad916c8adf0798aa16fa00f63e0"
+    },
+    {
+      "path": "frontend/db/schema.ts",
+      "start": 1,
+      "end": 20,
+      "sha256": "007eb38d8648f79b57e8d24dbd5dedbb08cd96624cfbdd8ef7c7a034c016f221"
+    },
+    {
+      "path": "frontend/lib/chart-access.ts",
+      "start": 1,
+      "end": 16,
+      "sha256": "4ffd32aee6ef8ecbcda6437474263bdf2c040394d8a34cf923423b3144872016"
+    },
+    {
+      "path": "frontend/lib/chart-db.ts",
+      "start": 1,
+      "end": 6,
+      "sha256": "de2bc7a2cbd285061de1467d02a18880b6dd5549f4ea0cdaf6a5c7ebfe77abd2"
+    },
+    {
+      "path": "frontend/lib/chart-server.ts",
+      "start": 1,
+      "end": 7,
+      "sha256": "3bf2e2f441ed3bf9ce56096994cdb70801e3c86c496454efd2a586aa335b6746"
+    },
+    {
+      "path": "frontend/app/api/prescriber-chart/route.ts",
+      "start": 1,
+      "end": 28,
+      "sha256": "e18775764027e2de85b4d300eadecc59397723cc2dc162ca55f04e3b154acf1b"
+    },
+    {
+      "path": "frontend/app/api/prescriber-chart/route.ts",
+      "start": 30,
+      "end": 81,
+      "sha256": "043d5b23813b64c289a22f6ebdf08af79ece49bbb35969227ac9a603a62c4bc7"
+    },
+    {
+      "path": "frontend/hooks/use-prescriber-chart.ts",
+      "start": 1,
+      "end": 77,
+      "sha256": "28d4ae614d33dc845521d12e8334a8546ff6fabfc8a740899d90276badf255b4"
+    },
+    {
+      "path": "frontend/components/gp-medication-table.tsx",
+      "start": 16,
+      "end": 63,
+      "sha256": "81b65db85ee3ff3a3b830436713a58aed595d4a50a8468b918a35f50c5c47b64"
+    },
+    {
+      "path": "frontend/app/medication-charts/page.tsx",
+      "start": 23,
+      "end": 43,
+      "sha256": "a2bed0fe454f8926efed825e7518855613826c5602ef120d10086a691427ae73"
+    },
+    {
+      "path": "frontend/app/medication-charts/page.tsx",
+      "start": 87,
+      "end": 87,
+      "sha256": "1b95b2000c6625e6245aad14bb4ad2e04afad162fbabadd54e7413b689ae086f"
+    },
+    {
+      "path": "frontend/app/layout.tsx",
+      "start": 24,
+      "end": 26,
+      "sha256": "ee5bc47e3734a9b37405f227f82b5f8c3bc292c24f0f8292b44a961d21ad3407"
+    },
+    {
+      "path": "frontend/components/prescriber-signature.tsx",
+      "start": 36,
+      "end": 55,
+      "sha256": "e7450cb2212ddf4fe3c4a0ad0d915b9723dba3f64dbc270ede2cd7b07071a24a"
+    },
+    {
+      "path": "frontend/components/prescriber-signature.tsx",
+      "start": 82,
+      "end": 103,
+      "sha256": "4e14889c40d63d4afdda027da4954a4e7d75374785dd8c7116804f8aeff6054b"
+    },
+    {
+      "path": "frontend/components/gp-medication-table.tsx",
+      "start": 106,
+      "end": 109,
+      "sha256": "344947ee37a2a6724b1c55465dd3611a5b52335a505bb1b379c51db7474ffcdc"
+    },
+    {
+      "path": "frontend/lib/prescriber-chart.ts",
+      "start": 35,
+      "end": 37,
+      "sha256": "d63fecaddc7f24e64ee2dc39e7570b1f8bcc86718491831f0fc0af448cee8089"
+    },
+    {
+      "path": "frontend/lib/prescriber-chart.ts",
+      "start": 91,
+      "end": 93,
+      "sha256": "4c801498aa7ae5980aeca298d991b1c59cc4a895491ef5ff0bb756b4f8da3891"
+    },
+    {
+      "path": "frontend/components/gp-medication-table.tsx",
+      "start": 65,
+      "end": 69,
+      "sha256": "4894d5ecefc5d935800f9d2d2803cb237a9a8ab44c5e1cdf0fb0a84d29b82db4"
+    },
+    {
+      "path": "frontend/components/gp-medication-table.tsx",
+      "start": 73,
+      "end": 76,
+      "sha256": "7ceece9beb346e00323c520499740f6468fd1204fd6109bd20466b58e36ef4c5"
+    },
+    {
+      "path": "backend/apps/accounts/permissions.py",
+      "start": 1,
+      "end": 10,
+      "sha256": "8129bb9f5729c440d44570d1084446667c2723b9cdab5d697a0b8e1cb464471e"
+    },
+    {
+      "path": "backend/apps/medications/serializers.py",
+      "start": 1,
+      "end": 11,
+      "sha256": "18a7aab12fcfd3ba522b4ded9ce949ede61e5bf821d7a43aed5d23e521162f50"
+    },
+    {
+      "path": "backend/apps/medications/views.py",
+      "start": 1,
+      "end": 13,
+      "sha256": "0221fd307525a86e64d793e147b7bc29023cfdf55b25bcc049914eb99963e7d9"
+    },
+    {
+      "path": "frontend/lib/api-client.ts",
+      "start": 1,
+      "end": 19,
+      "sha256": "85d29bd6e0513429e2bcf8a997165394668c3bc3db0d2c3cd154b3bdaf4e2cba"
+    },
+    {
+      "path": "frontend/app/reports/page.tsx",
+      "start": 24,
+      "end": 24,
+      "sha256": "a5777af6858e7342380e154e84866c10dabe480a20f336cc801e2bde164dac67"
+    },
+    {
+      "path": "frontend/components/app-shell.tsx",
+      "start": 143,
+      "end": 143,
+      "sha256": "b0c33167db95e4fc180509252b63fac93af19d48e443bfc330d0d083f459c594"
+    },
+    {
+      "path": "output/gp-lab/Test-GpWorkflow.mjs",
+      "start": 27,
+      "end": 33,
+      "sha256": "cd82cd9c47f2e1237494f6d18c7d8372b3b9981b361ea3c37d89953f834371fb"
+    }
+  ]
+}

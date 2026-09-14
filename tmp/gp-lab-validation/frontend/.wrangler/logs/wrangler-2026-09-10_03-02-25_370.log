@@ -1,0 +1,123 @@
+
+--- 2026-09-10T03:02:25.520Z debug
+🪵  Writing logs to "C:\Users\pedim\OneDrive\Desktop\Side_projects\ADAC4CARE\tmp\gp-lab-validation\frontend\.wrangler\logs\wrangler-2026-09-10_03-02-25_370.log"
+---
+
+--- 2026-09-10T03:02:25.520Z debug
+.env file not found at "C:\Users\pedim\OneDrive\Desktop\Side_projects\ADAC4CARE\tmp\gp-lab-validation\frontend\.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-09-10T03:02:25.626Z log
+
+ ⛅️ wrangler 4.92.0
+───────────────────
+---
+
+--- 2026-09-10T03:02:25.627Z log
+Resource location: local 
+
+---
+
+--- 2026-09-10T03:02:25.627Z log
+Use --remote if you want to access the remote instance.
+
+---
+
+--- 2026-09-10T03:02:25.636Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"7f5d4f9c-5af6-489d-905a-c9b53320169d","event":"wrangler command started","timestamp":1789009345636,"properties":{"amplitude_session_id":1789009345632,"amplitude_event_id":0,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Windows","osVersion":"Windows 11 Home","nodeVersion":22,"packageManager":"npm","isFirstUsage":false,"configFileType":"json","isCI":true,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":null,"argsUsed":["config","local"],"argsCombination":"config, local","sanitizedCommand":"d1 migrations apply","sanitizedArgs":{"local":true}}}.
+---
+
+--- 2026-09-10T03:02:25.644Z log
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler\state\v3\d1:
+---
+
+--- 2026-09-10T03:02:25.644Z log
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+---
+
+--- 2026-09-10T03:02:26.743Z log
+🚣 1 command executed successfully.
+---
+
+--- 2026-09-10T03:02:26.743Z log
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler\state\v3\d1:
+---
+
+--- 2026-09-10T03:02:26.743Z log
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+---
+
+--- 2026-09-10T03:02:27.068Z log
+🚣 1 command executed successfully.
+---
+
+--- 2026-09-10T03:02:27.069Z log
+Migrations to be applied:
+---
+
+--- 2026-09-10T03:02:27.072Z log
+┌─────────────────────────────┐
+│ name                        │
+├─────────────────────────────┤
+│ 0000_medication_records.sql │
+├─────────────────────────────┤
+│ 0001_short_random.sql       │
+└─────────────────────────────┘
+---
+
+--- 2026-09-10T03:02:27.072Z log
+? About to apply 2 migration(s)
+Your database may not be available to serve requests during the migration, continue?
+---
+
+--- 2026-09-10T03:02:27.072Z log
+🤖 Using fallback value in non-interactive context: yes
+---
+
+--- 2026-09-10T03:02:27.073Z log
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler\state\v3\d1:
+---
+
+--- 2026-09-10T03:02:27.073Z log
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+---
+
+--- 2026-09-10T03:02:27.395Z log
+🚣 3 commands executed successfully.
+---
+
+--- 2026-09-10T03:02:27.396Z log
+┌─────────────────────────────┬────────┐
+│ name                        │ status │
+├─────────────────────────────┼────────┤
+│ 0000_medication_records.sql │ ✅     │
+├─────────────────────────────┼────────┤
+│ 0001_short_random.sql       │ 🕒️    │
+└─────────────────────────────┴────────┘
+---
+
+--- 2026-09-10T03:02:27.397Z log
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler\state\v3\d1:
+---
+
+--- 2026-09-10T03:02:27.397Z log
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+---
+
+--- 2026-09-10T03:02:27.715Z log
+🚣 3 commands executed successfully.
+---
+
+--- 2026-09-10T03:02:27.716Z log
+┌─────────────────────────────┬────────┐
+│ name                        │ status │
+├─────────────────────────────┼────────┤
+│ 0000_medication_records.sql │ ✅     │
+├─────────────────────────────┼────────┤
+│ 0001_short_random.sql       │ ✅     │
+└─────────────────────────────┴────────┘
+---
+
+--- 2026-09-10T03:02:27.718Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"7f5d4f9c-5af6-489d-905a-c9b53320169d","event":"wrangler command completed","timestamp":1789009347718,"properties":{"amplitude_session_id":1789009345632,"amplitude_event_id":1,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Windows","osVersion":"Windows 11 Home","nodeVersion":22,"packageManager":"npm","isFirstUsage":false,"configFileType":"json","isCI":true,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":null,"argsUsed":["config","local"],"argsCombination":"config, local","sanitizedCommand":"d1 migrations apply","sanitizedArgs":{"local":true},"durationMs":2192}}.
+---

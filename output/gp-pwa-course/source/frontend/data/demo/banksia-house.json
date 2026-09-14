@@ -1,0 +1,43 @@
+{
+  "id": "banksia-house",
+  "name": "Banksia House",
+  "suburb": "Parramatta, NSW",
+  "address": "14 Banksia Lane, Parramatta NSW 2150",
+  "phone": "(02) 5550 4101",
+  "manager": "Ava Thompson",
+  "rnLead": "Emma Kelly",
+  "shift": "7:00 am – 3:00 pm",
+  "pinnedNote": "Observe all clients for swallowing difficulties this week. Record any coughing, pocketing or refusal in Messages before handover.",
+  "clients": [
+    {
+      "id": "james-miller", "initials": "JM", "name": "James Miller", "preferredName": "James", "dateOfBirth": "1987-04-18", "ndisNumber": "430 821 771", "room": "Room 1", "pronouns": "he/him", "photoColor": "#8D72C2",
+      "allergies": ["Penicillin — rash"], "diagnoses": ["Type 2 diabetes", "Mild intellectual disability"], "supportNotes": "Offer medicines with breakfast and allow extra processing time.", "medicationMethod": "Whole", "medicationDelivery": "Medication cup", "medicationAdministration": "Water", "gp": "Dr Priya Nair", "pharmacy": "Community Care Pharmacy",
+      "medications": [
+        {"id":"jm-metformin","name":"Metformin","genericName":"metformin hydrochloride","type":"routine","dose":"500 mg","route":"Oral","form":"Tablet","quantity":"1 tablet","schedule":"Twice daily with food","times":["08:00","18:00"],"indication":"Type 2 diabetes","instructions":"Administer with or immediately after food.","prescriber":"Dr Priya Nair","prescriberNumber":"MED0001847261","prescribedDate":"2026-07-14","reviewDate":"2026-10-14","status":"active","administrations":[{"date":"2026-09-01","time":"08:03","qty":"1","initial":"EK","status":"administered"},{"date":"2026-09-01","time":"18:05","qty":"1","initial":"RT","status":"administered"}]},
+        {"id":"jm-paracetamol","name":"Paracetamol","genericName":"paracetamol","type":"prn","dose":"1 g","route":"Oral","form":"Tablet","quantity":"2 tablets","schedule":"Every 6 hours when required","times":[],"indication":"Mild pain","instructions":"Assess pain score before and 60 minutes after administration.","maxDailyDose":"4 g in 24 hours","prescriber":"Dr Priya Nair","prescriberNumber":"MED0001847261","prescribedDate":"2026-06-02","reviewDate":"2026-12-02","status":"active","administrations":[{"date":"2026-08-30","time":"14:20","qty":"2","initial":"ML","status":"administered"}]}
+      ],
+      "reports": [{"id":"r-jm-1","category":"RN review","title":"Post-meal glucose monitoring","author":"Emma Kelly","authorRole":"RN","date":"2026-09-01","summary":"Morning readings remain within the agreed range. Continue current plan.","action":"Record BGL before breakfast for seven days.","acknowledged":true}],
+      "messages": [{"id":"m-jm-1","type":"handover","title":"Breakfast preference","author":"Riley Tran","role":"Support worker","date":"2026-09-01 14:42","body":"James took all morning medicines after toast. Prefers tablets offered one at a time.","priority":"routine"}]
+    },
+    {
+      "id": "lina-chen", "initials": "LC", "name": "Lina Chen", "preferredName": "Lina", "dateOfBirth": "1994-11-09", "ndisNumber": "430 821 804", "room": "Room 2", "pronouns": "she/her", "photoColor": "#799A55",
+      "allergies": ["Lamotrigine — severe rash"], "diagnoses": ["Epilepsy", "Autism"], "supportNotes": "Use visual first/then prompts. Do not rush medication administration.", "medicationMethod": "Whole", "medicationDelivery": "Client hand", "medicationAdministration": "Thickened fluids — Level 2", "gp": "Dr Omar Rahman", "pharmacy": "Community Care Pharmacy",
+      "medications": [
+        {"id":"lc-levetiracetam","name":"Levetiracetam","genericName":"levetiracetam","type":"routine","dose":"250 mg","route":"Oral","form":"Tablet","quantity":"1 tablet","schedule":"Twice daily","times":["08:00","20:00"],"indication":"Seizure prevention","instructions":"Do not cease abruptly. Record seizure activity in Messages.","prescriber":"Dr Omar Rahman","prescriberNumber":"MED0001764309","prescribedDate":"2026-08-19","reviewDate":"2026-11-19","status":"active","administrations":[{"date":"2026-09-01","time":"07:58","qty":"1","initial":"EK","status":"administered"},{"date":"2026-09-01","time":"20:02","qty":"1","initial":"JC","status":"administered"}]},
+        {"id":"lc-midazolam","name":"Midazolam","genericName":"midazolam","type":"prn","dose":"5 mg","route":"Buccal","form":"Pre-filled syringe","quantity":"1 syringe","schedule":"As per seizure management plan","times":[],"indication":"Prolonged seizure over 5 minutes","instructions":"Call emergency services and follow current seizure action plan.","maxDailyDose":"One dose unless directed by emergency clinician","prescriber":"Dr Omar Rahman","prescriberNumber":"MED0001764309","prescribedDate":"2026-08-19","reviewDate":"2026-11-19","status":"active","administrations":[]}
+      ],
+      "reports": [{"id":"r-lc-1","category":"GP instruction","title":"Levetiracetam dose maintained","author":"Dr Omar Rahman","authorRole":"GP","date":"2026-08-19","summary":"No dose change following neurology review.","action":"Continue 250 mg twice daily; report breakthrough seizures.","acknowledged":false}],
+      "messages": [{"id":"m-lc-1","type":"incident","title":"Brief absence episode","author":"Jordan Cole","role":"Support worker","date":"2026-09-01 20:28","body":"Observed a 12-second staring episode after dinner. No fall or injury. Lina returned to baseline; RN notified.","priority":"important"}]
+    },
+    {
+      "id": "oliver-ahmed", "initials": "OA", "name": "Oliver Ahmed", "preferredName": "Oli", "dateOfBirth": "1979-02-26", "ndisNumber": "430 821 838", "room": "Room 3", "pronouns": "he/him", "photoColor": "#D49A62",
+      "allergies": [], "diagnoses": ["Cerebral palsy", "Vitamin D deficiency"], "supportNotes": "Check upright posture before medicines and remain present for ten minutes.", "medicationMethod": "Crushed", "medicationDelivery": "Mixed with yoghurt", "medicationAdministration": "Thickened fluids — Level 3", "gp": "Dr Priya Nair", "pharmacy": "Community Care Pharmacy",
+      "medications": [
+        {"id":"oa-vitd","name":"Vitamin D₃","genericName":"colecalciferol","type":"routine","dose":"1,000 IU","route":"Oral","form":"Tablet","quantity":"1 tablet","schedule":"Once daily with food","times":["08:30"],"indication":"Vitamin D deficiency","instructions":"Crush and mix with one teaspoon of yoghurt.","prescriber":"Dr Priya Nair","prescriberNumber":"MED0001847261","prescribedDate":"2026-05-10","reviewDate":"2026-11-10","status":"active","administrations":[{"date":"2026-09-01","time":"08:31","qty":"1","initial":"EK","status":"administered"}]},
+        {"id":"oa-baclofen","name":"Baclofen","genericName":"baclofen","type":"routine","dose":"10 mg","route":"Oral","form":"Tablet","quantity":"1 tablet","schedule":"Three times daily","times":["08:30","14:00","20:00"],"indication":"Muscle spasticity","instructions":"Monitor for drowsiness and reduced muscle tone.","prescriber":"Dr Priya Nair","prescriberNumber":"MED0001847261","prescribedDate":"2026-07-01","reviewDate":"2026-10-01","status":"active","administrations":[{"date":"2026-09-01","time":"08:32","qty":"1","initial":"EK","status":"administered"},{"date":"2026-09-01","time":"14:02","qty":"1","initial":"ML","status":"administered"}]}
+      ],
+      "reports": [{"id":"r-oa-1","category":"Dose change","title":"Baclofen afternoon dose adjusted","author":"Dr Priya Nair","authorRole":"GP","date":"2026-07-01","summary":"Afternoon dose moved from 2:30 pm to 2:00 pm.","action":"Use 8:30 am, 2:00 pm and 8:00 pm administration times.","acknowledged":true}],
+      "messages": [{"id":"m-oa-1","type":"handover","title":"Positioning reminder","author":"Emma Kelly","role":"RN","date":"2026-09-02 06:48","body":"Ensure Oli is fully upright before crushed medicines. Speech pathologist review booked Friday.","priority":"important"}]
+    }
+  ]
+}

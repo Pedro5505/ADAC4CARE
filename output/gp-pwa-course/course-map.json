@@ -1,0 +1,104 @@
+[
+  {
+    "number": 1,
+    "title": "Boot the complete interface and rebuild the shared shell",
+    "objective": "Run the actual repository stack and reconstruct the shared GP page frame without losing the source styling.",
+    "files": [
+      "frontend/package.json",
+      "frontend/vite.config.ts",
+      "frontend/app/layout.tsx",
+      "frontend/app/globals.css",
+      "frontend/components/role-provider.tsx",
+      "frontend/components/app-shell.tsx"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "GP home, overview cards and the patient directory",
+    "objective": "Reproduce the complete home experience and connect its cards, patient selector and search to the correct GP routes.",
+    "files": [
+      "frontend/components/app-shell.tsx",
+      "frontend/app/page.tsx",
+      "frontend/app/people/page.tsx",
+      "frontend/data/demo/index.ts",
+      "frontend/data/demo/types.ts"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Patient profiles, chart navigation and UI state boundaries",
+    "objective": "Build the patient detail journey and understand which data comes from fixtures, route parameters, React state and the chart API.",
+    "files": [
+      "frontend/app/people/[clientId]/page.tsx",
+      "frontend/app/medication-charts/page.tsx",
+      "frontend/lib/prescriber-chart.ts",
+      "frontend/hooks/use-prescriber-chart.ts"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Database, HTTP contracts and GP permission checks",
+    "objective": "Rebuild the active D1 chart read/write path and explain each boundary from request to stored revision.",
+    "files": [
+      "frontend/db/schema.ts",
+      "frontend/drizzle/0001_short_random.sql",
+      "frontend/lib/chart-db.ts",
+      "frontend/lib/chart-access.ts",
+      "frontend/lib/chart-server.ts",
+      "frontend/app/api/prescriber-chart/route.ts"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Editable prescriptions, schedules, signatures and history",
+    "objective": "Rebuild the source GP chart interaction with truthful save feedback, versioned writes and preserved administration history.",
+    "files": [
+      "frontend/hooks/use-prescriber-chart.ts",
+      "frontend/components/gp-medication-table.tsx",
+      "frontend/components/prescriber-signature.tsx",
+      "frontend/lib/prescriber-chart.ts"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Clinical reports, care messages and persistent GP actions",
+    "objective": "Keep the source report/message screens while replacing GP demo-success actions with an append-only database workflow.",
+    "files": [
+      "frontend/drizzle/0002_course_communications.sql",
+      "frontend/lib/clinical-records.ts",
+      "frontend/app/api/clinical-records/route.ts",
+      "frontend/hooks/use-clinical-home.ts",
+      "frontend/components/gp-communication-form.tsx",
+      "frontend/app/reports/page.tsx",
+      "frontend/app/messages/page.tsx",
+      "frontend/app/page.tsx",
+      "frontend/app/people/page.tsx"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Installable PWA and an explicit offline experience",
+    "objective": "Add install metadata, icons, service-worker registration and a generic offline screen without caching clinical pages or queuing writes.",
+    "files": [
+      "frontend/public/manifest.webmanifest",
+      "frontend/public/icons/icon-192.png",
+      "frontend/public/icons/icon-512.png",
+      "frontend/public/offline.html",
+      "frontend/public/sw.js",
+      "frontend/components/pwa-status.tsx",
+      "frontend/app/layout.tsx",
+      "frontend/app/globals.css"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Full GP journey, regression checks and final hand-in",
+    "objective": "Prove the complete source-based GP experience works across navigation, persistence, failure recovery and PWA behaviour.",
+    "files": [
+      "Test-GpWorkflow.mjs",
+      "Test-Course.mjs",
+      "VALIDATION-COURSE.md",
+      "Integration-Reference.md"
+    ]
+  }
+]

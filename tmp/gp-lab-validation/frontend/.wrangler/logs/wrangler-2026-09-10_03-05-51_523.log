@@ -1,0 +1,75 @@
+
+--- 2026-09-10T03:05:51.676Z debug
+🪵  Writing logs to "C:\Users\pedim\OneDrive\Desktop\Side_projects\ADAC4CARE\tmp\gp-lab-validation\frontend\.wrangler\logs\wrangler-2026-09-10_03-05-51_523.log"
+---
+
+--- 2026-09-10T03:05:51.676Z debug
+.env file not found at "C:\Users\pedim\OneDrive\Desktop\Side_projects\ADAC4CARE\tmp\gp-lab-validation\frontend\.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-09-10T03:05:51.686Z log
+
+ ⛅️ wrangler 4.92.0 (update available 4.130.0)
+──────────────────────────────────────────────
+---
+
+--- 2026-09-10T03:05:51.686Z log
+Resource location: local 
+
+---
+
+--- 2026-09-10T03:05:51.686Z log
+Use --remote if you want to access the remote instance.
+
+---
+
+--- 2026-09-10T03:05:51.695Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"7f5d4f9c-5af6-489d-905a-c9b53320169d","event":"wrangler command started","timestamp":1789009551695,"properties":{"amplitude_session_id":1789009551691,"amplitude_event_id":0,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Windows","osVersion":"Windows 11 Home","nodeVersion":22,"packageManager":"npm","isFirstUsage":false,"configFileType":"json","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":null,"argsUsed":["command","config","local"],"argsCombination":"command, config, local","sanitizedCommand":"d1 execute","sanitizedArgs":{"local":true}}}.
+---
+
+--- 2026-09-10T03:05:51.703Z log
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler\state\v3\d1:
+---
+
+--- 2026-09-10T03:05:51.703Z log
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+---
+
+--- 2026-09-10T03:05:52.060Z log
+🚣 1 command executed successfully.
+---
+
+--- 2026-09-10T03:05:52.061Z log
+[
+  {
+    "results": [
+      {
+        "medication_id": "regular-slot-8",
+        "version": 1,
+        "actor": "Local GP evaluation",
+        "dose": "10 mg"
+      },
+      {
+        "medication_id": "regular-slot-8",
+        "version": 2,
+        "actor": "Local GP evaluation",
+        "dose": "10 mg"
+      },
+      {
+        "medication_id": "regular-slot-8",
+        "version": 3,
+        "actor": "Local GP evaluation",
+        "dose": "20 mg"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "duration": 1
+    }
+  }
+]
+---
+
+--- 2026-09-10T03:05:52.063Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"7f5d4f9c-5af6-489d-905a-c9b53320169d","event":"wrangler command completed","timestamp":1789009552063,"properties":{"amplitude_session_id":1789009551691,"amplitude_event_id":1,"wranglerVersion":"4.92.0","wranglerMajorVersion":4,"wranglerMinorVersion":92,"wranglerPatchVersion":0,"osPlatform":"Windows","osVersion":"Windows 11 Home","nodeVersion":22,"packageManager":"npm","isFirstUsage":false,"configFileType":"json","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"agent":null,"argsUsed":["command","config","local"],"argsCombination":"command, config, local","sanitizedCommand":"d1 execute","sanitizedArgs":{"local":true},"durationMs":382}}.
+---
